@@ -1,0 +1,258 @@
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+    html {
+        font-size: 56.25px;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+    html {
+        font-size: 58.59375px;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+    html {
+        font-size: 62.5px;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+    html {
+        font-size: 64.6875px;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+    html {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    html {
+        font-size: 100px;
+    }
+}
+
+body {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    display: block;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/*header*/
+.header {
+    width: 100%;
+    height: 0.88rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e4366b;
+}
+
+.header .title {
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #fff;
+}
+
+.header .al {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 0.9rem;
+    height: 0.88rem;
+    text-align: center;
+}
+
+.header .al img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .al span {
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .ar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 1.08rem;
+    height: 0.52rem;
+    color: #fffeff;
+    font-size: 0.24rem;
+    background: #f45482;
+    border-radius: 0.15rem;
+    text-align: center;
+    line-height: 0.52rem;
+    margin-right: 0.2rem;
+    margin-top: 0.17rem;
+}
+
+.header img {
+    width: 0.51rem;
+    height: 0.34rem;
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0.88rem;
+    bottom: 0.98rem;
+    overflow: hidden;
+    background: #f7f7f7;
+}
+
+.content .wrap {
+    position: relative;
+}
+
+.wrap .e-content {
+    position: absolute;
+    left: 1.9rem;
+    top: 0.6rem;
+    font-size: 0.34rem;
+    color: #3d3d3d;
+}
+
+.wrap .empty {
+    position: absolute;
+    left: 1.88rem;
+    top: 1.2rem;
+}
+
+.wrap .empty img {
+    width: 2.64rem;
+    height: 2.61rem;
+}
+
+.wrap a {
+    position: absolute;
+    left: 1.06rem;
+    top: 4.55rem;
+    width: 4.22rem;
+    height: 0.9rem;
+    background: #e12a62;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #ffffff;
+    font-size: 0.48rem;
+}
+
+/*tabs*/
+.tabs {
+    width: 100%;
+    height: 0.98rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    background: #484850;
+}
+
+.tabs li {
+    flex: 1;
+    position: relative;
+}
+
+.tabs a {
+    height: 0.93rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fffffd;
+    margin-top: 0.05rem;
+}
+
+.tabs li.active:before {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 0.05rem;
+    background: #e4366b;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/*updownfresh*/
+.head {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    background: #ffffff;
+}
+
+.head img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    transform: translateY(4px) rotate(180deg);
+    transition: transform 200ms;
+}
+
+.head.up img {
+    transform: translateY(4px) rotate(0deg);
+}
+
+.foot {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    background: #ffffff;
+}
+
+.foot img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    transform: translateY(4px) rotate(0deg);
+    transition: transform 200ms;
+}
+
+.foot.down img {
+    transform: translateY(4px) rotate(180deg);
+}
+
+
+/*# sourceMappingURL=category.css.map */

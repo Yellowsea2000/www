@@ -1,0 +1,18 @@
+{
+	"index.html": {
+		"resources": [
+			"images/ajax-loader.gif",
+			"css/index.css",
+			"lib/swiper.js",
+			"images/banner.jpg",
+			"lib/zepto.dev.js",
+			"json/goods.json",
+			"lib/iscroll-probe.js",
+			"lib/swiper.css",
+			"css/style.css",
+			"lib/refresh.js",
+			"js/index.js",
+			"images/arrow.png"
+		]
+	}
+}

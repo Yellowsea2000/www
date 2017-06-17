@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../css/common.css" />
+    <link type="text/css" rel="stylesheet" href="lib/swiper.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script src="../lib/zepto.dev.js"></script>
+    
+    <script src="lib/swiper.js"></script>
+    <script src="lib/iscroll-probe.js"></script>
+    <script src="lib/refresh.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/register.js"></script>
+		<style>
+			.header{
+				display: flex;
+				justify-content: space-around;
+			}
+			.header p{
+				line-height: 51px;
+				color: white;
+			}
+			.header button{
+				background: #e53461;
+				border:none;
+				color: white;
+			}
+			form{
+				width:100%;
+			}
+			input{
+				width:90%;
+				height:50px;
+				margin:20px auto;
+				padding-left: 10px;
+				display:block;
+				border:solid gainsboro 1px;
+				border-radius: 10px;
+				box-sizing:border-box;
+			}
+			input[type=checkbox]{
+				width:20px;
+				height:20px;
+				margin-left: 40px;
+				margin-right:50px;
+				display: inline-block;
+			}
+			
+			input[type=button]{
+				background: #e5346a;
+				color:white;
+				font-size: 0.5rem;
+			}
+			
+			.content form a{
+				display:inline-block;
+				margin-left:40px;
+				color:#5BC0DE;
+				pointer:cursor;
+			}
+			.boxWrapper
+			{
+				display: flex;
+				justify-content: space-around;
+			}
+			.boxWrapper div a{
+				display: block;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<header class="header">
+			<a class="al" href="javascript:history.go(-1);">
+        <img src="../img/return.png"/>
+        <span></span>
+         </a>
+		<h1 class="title">注册</h1>
+		<button>登陆</button>
+	    </header>
+	    
+	   <div class="content">
+	   	   <form>
+	   	   	    <input type="text" id="username" placeholder="账号" />
+	   	   	    <input type="password" id="password" placeholder="密码"/>
+	   	   	    <input type="password" id="password2" placeholder="重复登陆密码"/>
+	   	   	    
+	   	   	    	<input type="checkbox" />
+	   	   	    	<span>记住密码</span>
+	   	   	    	<a href="#">忘记密码</a>
+	   	   	    
+	   	   	    
+	   	   	    <input type="button" value="同意服务协议并注册" />
+	   	   	    
+	   	   </form>
+	   </div>
+	    
+	    <ul class="tabs">
+    <li class="tab">
+        <a href="../index.html">
+            <img src="../img/home.png" style="width: 0.48rem; height: 0.51rem;"/>
+            <span>首页</span>
+        </a>
+    </li>
+    <li class="tab">
+        <a href="category.html">
+            <img src="../img/category.png" style="width: 0.44rem; height: 0.43rem;"/>
+            <span>分类</span>
+        </a>
+    </li>
+    <li class="tab cart">
+        <a href="myCart.html">
+            <img src="../img/cart.png" style="width: 0.48rem; height: 0.43rem;"/>
+            <span>购物车</span>
+        </a>
+    </li>
+    <li class="tab">
+        <a href="myShow.html">
+            <img src="../img/mine.png" style="width: 0.47rem; height: 0.45rem;"/>
+            <span>我的秀</span>
+        </a>
+    </li>
+    <li class="tab active">
+        <a href="more.html">
+            <img src="../img/more.png" style="width: 0.46rem; height: 0.43rem;"/>
+            <span>更多</span>
+        </a>
+      </li>
+    </ul>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+
+
+.search-bar{
+	width:100%;
+	background: gray;
+}
+.search-bar input{
+	width:80%;
+	border-radius: 10px;
+}
+
+.content {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 0.88rem;
+	bottom: 0.98rem;
+	overflow: auto;
+}
+
+.content .banner {
+	width: 100%;
+	height: 2.51rem;
+	background: yellowgreen;
+}
+.content .banner img{
+	width: 100%;
+}
+
+
+.content .list .item{
+	height: 2.22rem;
+	width: 100%;
+	padding: 0.22rem 0.5rem 0.27rem 0.15rem;
+	display: flex;
+	box-sizing: border-box;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+}
+.content .item .item-img{
+	width: 1.74rem;
+	height: 1.74rem;
+}
+.content .item .item-img img{
+	width: 100%;
+}
+.content .item .item-content{
+	flex: 1;
+}
+.content .item .item-content h3{
+	line-height: 0.4rem;
+	font-size: 0.28rem;
+	color: #000000;
+	font-weight: 600;
+}
+.content .item .item-content .price{
+	font-size: 0.3rem;
+	color: #f42a74;
+	line-height: 0.42rem;
+	font-weight: bolder;
+	padding-left: 0.2rem;
+}
+.content .item .item-content .discount{
+	font-size: 0.24rem;
+	color: #000000;
+	padding-left: 0.2rem;
+	font-weight: bold;
+	line-height: 0.5rem;
+}
+.content .item .button{
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.37rem;
+	width: 1.18rem;
+	height: 0.52rem;
+	background: #e63569;
+	border-radius: 0.05rem;
+	text-align: center;
+	line-height: 0.52rem;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

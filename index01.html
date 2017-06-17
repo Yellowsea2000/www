@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/common.css" />
+    <link type="text/css" rel="stylesheet" href="css/index01.css" />
+    <link type="text/css" rel="stylesheet" href="lib/swiper.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script src="lib/zepto.dev.js"></script>
+    
+    <script src="lib/swiper.js"></script>
+    <script src="lib/iscroll-probe.js"></script>
+    <script src="lib/refresh.js"></script>
+    <script>
+    	if(!localStorage.getItem('val'))
+    	{
+    		console.log(localStorage)
+    		location.href="views/firstIntroduce.html"
+    	}
+    	
+    	
+    	
+    </script>
+</head>
+<body>
+	
+	<header class="header">
+		<h1 class="title">ZXIU走秀网</h1>
+	</header>
+	
+	
+	
+	<div class="content">
+		<div class="wrap">
+			<!-- 下拉刷新 -->
+				<div class="head">
+					<img src="images/ajax-loader.gif" />
+					<span>下拉刷新...</span>
+				</div>
+				
+			
+			<!-- 搜索框 -->
+			<div class="search-bar">
+				<input type="text" placeholder="">
+			</div>
+			<!-- 轮播视图 -->
+			<div class="banner swiper-container">
+				    <div class="swiper-wrapper">
+				        <!--<div class="swiper-slide">
+				        	<img src="img/banner.jpg" />
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="img/banner.jpg" />
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="img/banner.jpg" />
+				        </div>-->
+				    </div>
+				    <div class="swiper-pagination"></div>
+			</div>
+			
+			
+			<!-- 列表 -->
+			<ul class="list">
+				
+			</ul>
+			
+			<!-- 加载更多 -->
+				<div class="foot">
+					<img src="images/ajax-loader.gif" />
+					<span>加载更多...</span>
+				</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	<ul class="tabs">
+    <li class="tab">
+        <a href="index.html">
+            <img src="img/home.png" style="width: 0.48rem; height: 0.51rem;"/>
+            <span>首页</span>
+        </a>
+    </li>
+    <li class="tab">
+        <a href="views/category.html">
+            <img src="img/category.png" style="width: 0.44rem; height: 0.43rem;"/>
+            <span>分类</span>
+        </a>
+    </li>
+    <li class="tab cart">
+        <a href="views/myCart.html">
+            <img src="img/cart.png" style="width: 0.48rem; height: 0.43rem;"/>
+            <span>购物车</span>
+        </a>
+    </li>
+    <li class="tab">
+        <a href="views/myShow.html">
+            <img src="img/mine.png" style="width: 0.47rem; height: 0.45rem;"/>
+            <span>我的秀</span>
+        </a>
+    </li>
+    <li class="tab active">
+        <a href="views/more.html">
+            <img src="img/more.png" style="width: 0.46rem; height: 0.43rem;"/>
+            <span>更多</span>
+        </a>
+    </li>
+</ul>
+	
+	<script src="js/index.js"></script>
+</body>
+</html>
